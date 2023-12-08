@@ -11,7 +11,7 @@ except ModuleNotFoundError:
 
 NUM_QUESTIONS_PER_QUIZ = 11
 QUESTIONS_PATH = pathlib.Path(
-    __file__).parent / "/Users/adrianadewunmi/PyCharm/GitHub_Projects/Quiz-Application/com.application/questions.toml"
+    __file__).parent / "C:/Users/Admin/Downloads/aquestions.toml"
 QUESTIONS = tomllib.loads(QUESTIONS_PATH.read_text())
 
 
